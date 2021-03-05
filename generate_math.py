@@ -29,7 +29,7 @@ print("*****SIMPLE TEST*******\n")
 print("Addition:")
 problem1 = Problem('+', 2, 2)
 print(problem1)
-
+print(str(hash('4'))+"<-this proves I can validate answers")
 print("Subtraction:")
 problem2 = Problem('-', 6, 2)
 print(problem2)
@@ -44,12 +44,6 @@ print(problem4)
 print("******************\n\n")
 
 operators = ['+','-','*','/']
-print(random.randint(0,3))
-print(random.randint(0,3))
-print(random.randint(0,3))
-
-print(random.randint(0,3))
-
 random_problems = []
 for i in range(10):
     random_problems.append(Problem(operators[random.randint(0,3)], random.randrange(100), random.randrange(100)))
