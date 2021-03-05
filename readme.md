@@ -5,7 +5,7 @@
 - Allow Registered Users to:
 - - Check Daily Score History
 - - Discover Strong/Weak areas
-- -Track Progress
+- - Track Progress
 # To Start
 - + - * /
 # Extras

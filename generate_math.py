@@ -21,9 +21,21 @@ class Problem:
 
 
     def __str__(self):
-        return str(self.operand_a) + self.operator + str(self.operand_b) +'='+str(self.result)
+        return str(self.operand_a) +' '+ self.operator +' '+ str(self.operand_b) +' = '+str(self.result)
 
 
-
+print("Addition:")
 problem1 = Problem('+', 2, 2)
 print(problem1)
+
+print("Subtraction:")
+problem2 = Problem('-', 6, 2)
+print(problem2)
+
+print("Multiplication:")
+problem3 = Problem('*', 9, 81)
+print(problem3)
+
+print("Division:")
+problem4 = Problem('/', 100, 12)
+print(problem4)
